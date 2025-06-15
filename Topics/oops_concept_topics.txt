@@ -1,0 +1,81 @@
+
+
+🧱 1. Basic OOP Concepts
+
+| Topic                        | Description                      |  Covered ?
+| ---------------------------- | -------------------------------- | --------------
+| **Class**                    | Blueprint for creating objects   | Yes
+| **Object**                   | Instance of a class              | Yes
+| **Constructor (`__init__`)** | Initializes object attributes    | Yes
+| **Instance Variables**       | Variables tied to an object      | Yes
+| **Instance Methods**         | Functions defined inside a class | Yes
+| **`self` keyword**           | Refers to the current object     | Yes
+
+
+🏗️ 2. Core OOP Principles (4 Pillars)
+
+| Pillar            | Concepts to Learn                                                     |  Covered ?
+| ----------------- | --------------------------------------------------------------------- | ------------
+| **Encapsulation** | Private/protected attributes, getter/setter, `@property`              | Yes
+| **Abstraction**   | Abstract classes, interfaces, `abc` module                            | Yes
+| **Inheritance**   | Single, multiple, multilevel inheritance                              | Yes
+| **Polymorphism**  | Method overriding, method overloading (via default args), duck typing | Yes
+
+
+🚀 3. Advanced OOP Concepts
+
+| Topic                                                                       | Description                                |
+| --------------------------------------------------------------------------- | ------------------------------------------ | ---------------
+| **Class Variables** & **Static Methods**                                    | Shared among all instances                 | Yes
+| **`@classmethod` Decorator**                                                | Method that gets the class (`cls`)         | Yes
+| **`@staticmethod` Decorator**                                               | Method with no access to instance or class | Yes
+| **Magic/Dunder Methods** (`__str__`, `__repr__`, `__eq__`, `__len__`, etc.) | Custom behavior for operators              | Yes
+| **Operator Overloading**                                                    | Redefining operators like `+`, `==`, etc.  | Yes
+| **Composition vs Inheritance**                                              | Use of other classes inside a class        | Yes
+| **Mixins**                                                                  | Reusable behavior via multiple inheritance | Yes
+| **Data Classes** (`@dataclass`)                                             | Auto-generate boilerplate methods          | Yes
+| **Slots (`__slots__`)**                                                     | Memory optimization for objects            | Yes
+| **Type Hinting with Classes**                                               | Better code clarity and static checks      | Yes
+
+
+🧩 4. Design Patterns (Optional but Useful)
+
+| Pattern   | Use Case                   |
+| --------- | -------------------------- |
+| Singleton | One instance only          |
+| Factory   | Object creation            |
+| Decorator | Add behavior dynamically   |
+| Strategy  | Interchangeable algorithms |
+| Observer  | Publish/subscribe events   |
+
+
+🔁 5. Testing & Best Practices
+
+| Topic                      | Description                |
+| -------------------------- | -------------------------- |
+| **Unit Testing OOP Code**  | Use `unittest` or `pytest` |
+| **Separation of Concerns** | Avoid tight coupling       |
+| **DRY Principle**          | Don’t Repeat Yourself      |
+| **SOLID Principles**       | Clean, scalable OOP design |
+
+
+✅ Bonus: Real-World Application
+
+1. Build a Banking System, Library Management System, or Quiz App using all concepts
+
+2. Practice using UML class diagrams
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
